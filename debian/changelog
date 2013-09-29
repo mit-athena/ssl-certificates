@@ -1,4 +1,4 @@
-debathena-ssl-certificates (1.5-1) UNRELEASED; urgency=low
+debathena-ssl-certificates (1.5-1) unstable; urgency=low
 
   [ Jonathan Reed ]
   * Bump debian/compat to 6
@@ -8,8 +8,10 @@ debathena-ssl-certificates (1.5-1) UNRELEASED; urgency=low
 
   [ Alexander Chernyakhovsky ]
   * Switch to non-native package
+  * Add git-buildpackage configuration
+  * Set source format to 3.0 (quilt)
 
- -- Alexander Chernyakhovsky <achernya@mit.edu>  Sun, 29 Sep 2013 04:26:52 -0400
+ -- Alexander Chernyakhovsky <achernya@mit.edu>  Sun, 29 Sep 2013 04:27:24 -0400
 
 debathena-ssl-certificates (1.4) unstable; urgency=low
 
