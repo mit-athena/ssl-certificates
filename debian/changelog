@@ -1,3 +1,11 @@
+debathena-ssl-certificates (1.6-0debathena2) unstable; urgency=medium
+
+  * Unconfigure the obsolete MIT CA.  (It is still provided at
+    /usr/share/ca-certificates/mit.edu/mitCA.crt for historical purposes.)
+    (Trac: #1389)
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sat, 25 Jun 2016 22:22:51 -0400
+
 debathena-ssl-certificates (1.6-0debathena1) unstable; urgency=low
 
   * Release 1.6
